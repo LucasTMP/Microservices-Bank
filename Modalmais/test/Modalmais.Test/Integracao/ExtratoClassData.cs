@@ -16,9 +16,7 @@ namespace Modalmais.Test
             new object[] { DateTime.Now, null , true },
             new object[] { null, null , true },
             new object[] { new DateTime(), new DateTime() , true },
-            new object[] { DateTime.Now.AddDays(1) , DateTime.Now , true },
             /*new object[] { DataInvalida(), DataInvalida(), true },*/
-            new object[] { DateTime.Now, DateTime.Now.AddDays(1), false },
             new object[] { DateTime.Now.AddDays(1), DateTime.Now.AddDays(1), false },
             new object[] { DateTime.Now, DateTime.Now , false },
         };
